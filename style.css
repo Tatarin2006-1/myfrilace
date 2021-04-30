@@ -3,7 +3,6 @@ a, ol, ul, p, h4, h1, span{
   font-weight: 400;
 }
 html{
-  overflow-x: hidden;
   width: 1280px;
   height: 650px;
   position: absolute;
