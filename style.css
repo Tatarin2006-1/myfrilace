@@ -1,3 +1,7 @@
+a, ol, ul, p, h4, h1, span{
+  font-family: 'Tahoma';
+  font-weight: 400;
+}
 html{
   overflow-x: hidden;
   width: 1280px;
@@ -30,7 +34,7 @@ html{
 /* ООО Вектор */
 .one-border{
     position: absolute;
-    top: 305px;
+    top: 355px;
     left: 120px;
     font-size: 16pt;
     padding: 10px;
@@ -42,7 +46,7 @@ html{
 /* первый заказ */
 .two-border{
     position: absolute;
-    top: 420px;
+    top: 440px;
     left: 120px;
     font-size: 16pt;
     padding: 10px;
@@ -54,7 +58,7 @@ html{
 /* второй заказ */
 .three-border{
     left: 120px;
-    top: 680px;
+    top: 650px;
     position: absolute;
     font-size: 16pt;
     padding: 10px;
@@ -67,13 +71,13 @@ html{
 /* галочка 1 */
 .form-check-1{
     position: absolute;
-    top: 355px;
+    top: 525px;
     left: 400px;
 }
 /* галочка 2 */
 .form-check-2{
   position: absolute;
-  top: 620px;
+  top: 730px;
   left: 400px;
 }
 /* одна из стрелочек */
@@ -81,9 +85,9 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 34px;
-    top: 330px;
+    top: 380px;
     width: 5px;
-    height: 450px;
+    height: 370px;
     z-index: 2;
   }
   /* одна из стрелочек */
@@ -92,7 +96,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 34px;
-    top: 780px;
+    top: 750px;
     width: 86px;
     height: 5px;
     z-index: 5;
@@ -103,7 +107,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 35px;
-    top: 330px;
+    top: 380px;
     width: 85px;
     height: 5px;
     z-index: 4;
@@ -114,7 +118,7 @@ html{
   .Фигура-4 {
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 500px;
+    top: 530px;
     left: 35px;
     width: 85px;
     height: 5px;
@@ -128,6 +132,13 @@ html{
     top: 135px;
     left: 1060px;
 }
+.coment-2{
+  box-sizing: border-box;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 350px;
+  left: 1060px;
+}
 
 /* одна из стрелочек */
 
@@ -135,7 +146,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 660px;
-    top: 463px;
+    top: 513px;
     width: 105px;
     height: 5px;
     z-index: 5;
@@ -146,7 +157,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 660px;
-    top: 403px;
+    top: 453px;
     width: 105px;
     height: 5px;
     z-index: 4;
@@ -157,7 +168,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 660px;
-    top: 332px;
+    top: 382px;
     width: 60px;
     height: 5px;
     z-index: 3;
@@ -168,7 +179,7 @@ html{
     background-color: rgb(0, 0, 0);
     position: absolute;
     left: 660px;
-    top: 333px;
+    top: 383px;
     width: 5px;
     height: 130px;
     z-index: 2;
@@ -177,35 +188,35 @@ html{
   .four-border{
     position: absolute;
     left: 720px;
-    top: 305px;
+    top: 355px;
     font-size: 16pt;
     padding: 10px;
     border: solid black 2px;
     border-radius: 10px;
-    width: 173px;
+    width: auto;
     height: auto;
 }
 /* я думал верстаю последнюю часть... Но ты и сам видешь ,что я оплошал) */
 .last-1{
   position: absolute;
-  top: 447px;
+  top: 497px;
   left: 780px;
 }
 .last-2{
   position: absolute;
  left: 780px;
- top: 385px;
+ top: 435px;
 }
     /* Да да да Я забыл галочки */
   .form-3{
       position: absolute;
-      top: 450px;
+      top: 500px;
       left: 950px;
   }
   /* Та же галочка, только немного под цифрой 4 */
   .form-4{
     position: absolute;
-    top: 390px;
+    top: 440px;
     left: 950px;
 }
   /* город Рязань */
