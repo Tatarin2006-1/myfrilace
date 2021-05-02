@@ -90,3 +90,60 @@ label {
   font-family: 'Comfortaa', 'cursive';
   margin: 30px 0px;
 }
+.orange-back {
+  width: auto;
+  margin-top: 100px;
+  background-color: #ffc155;
+  font-family: 'Comfortaa', 'cursive';
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+}
+.section-1 img,
+.section-2 img,
+.section-3 img,
+.section-4 img {
+  border-radius: 100px;
+  margin-right: 10px;
+}
+.section-1 span,
+.section-2 span,
+.section-3 span,
+.section-4 span {
+  font-size: 10pt;
+}
+.section-1 p,
+.section-2 p,
+.section-3 p,
+.section-4 p {
+  display: inline-block;
+}
+.section-1 .twop,
+.section-2 .twop,
+.section-3 .twop,
+.section-4 .twop {
+  font-size: 12pt;
+  font-weight: lighter;
+}
+.section-1 .onep,
+.section-2 .onep,
+.section-3 .onep,
+.section-4 .onep {
+  font-size: 20pt;
+  color: #ffc155;
+  display: inline-block;
+}
+.main-text-last {
+  text-align: center;
+  color: azure;
+  margin-bottom: 30px;
+}
