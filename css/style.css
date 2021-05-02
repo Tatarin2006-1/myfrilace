@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM3CwM.ttf) format('truetype');
+}
+.first {
+  background-image: url(../img/FirstBG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  height: auto;
+}
+.link-header:hover {
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 12pt;
+  font-family: 'Comfortaa', 'cursive';
+  color: wheat;
+}
+.link-header {
+  font-family: 'Comfortaa', 'cursive';
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: none;
+  font-size: 12pt;
+  color: white;
+}
+.IP {
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.first-text {
+  margin-top: 30%;
+  color: #fcefef;
+  padding-bottom: 20%;
+}
+.knopka {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding-bottom: 100px;
+}
+nav {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #1b1b1b;
+}
+.btn-warning {
+  margin-top: 30px;
+}
+.more-text {
+  color: #ffffff;
+  font-size: 16pt;
+}
+.card-body {
+  text-align: center;
+}
+.card img {
+  height: auto;
+  width: 100%;
+}
+.form-btn {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.input-text {
+  text-align: center;
+  margin-top: 40px;
+}
+label {
+  margin: 20px 0px;
+  font-family: 'Comfortaa', 'cursive';
+}

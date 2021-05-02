@@ -1,160 +1,172 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <!-- подключил бутстрап и файлы со стилями  -->
-    <title>Сайт</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки</title>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <script src="slick/slick.min.js"></script>
+    <link rel="stylesheet" href="less/style.less">
 </head>
 <body>
-    <!-- оглавление -->
-    <h1 class="first-text" style="text-align: center;">Экран логистики и производства для кухни на текущий день 27.04.2021</h1>
-                    <!-- таблица и ее тип -->
-                <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                          <!-- Колонки и их названия в таблице -->
-                        <th class="header" scope="1">Упаковка</th>
-                        <th class="header" scope="2">Доставка</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+    <div class="first">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="1">Меню</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#1">Домой</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#2">Вопросы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О Нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Услуги</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Связь</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>      
+            <div class="container-fluid">
+                    <div id="#1" class="first-text">
+                        <h1>Транспортные услуги по всей России</h1>
+                        <h5>Мы делаем грузоперевозки по всей России уже 5 лет. Нам доверились тысячи россиян. Доверьтесь и вы!</h4>    
+                </div>
+                <div class="knopka">
+                    <button type="button" class="first-btn btn btn-primary">Читать Больше</button>
+                </div>
+            </div>
+                </div>
+                <div id="2" class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <div style="margin-top: 100px;" class="about-us">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Какова стоимость перевозки?                                      </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Стоимость зависит от типа услуги, расстояния доставки и веса самой посылки. О цене договариваемся по телефону,и мы обещаем ,что у нас самые низкие цены на перевозки.                                    </div>
+                                            <img src="img/фура.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Почему нам выбрать именно вас?                                      </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Мы работаем на рынке уже 5 лет и ни разу не подвели наших заказчиков. Тысячи довольных клиентов говорят о многом, не правда ли? Вы можете не переживать за свой груз и положиться на нас.                                    </div>
+                                            <img src="img/Гарант.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Как мне к вам обратится?                                      </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Ниже вы можете увидеть форму, в которую вписать свои данные для связи с нами. Сотрудники быстро с вами свяжутся и расскажут все расценки и особенности. Наши специалисты никому не разгласят ваши данные , можно спать спокойно.                                    </div>
+                                            <img src="img/связь.jpg">
 
-                    <tr>
-                        <!-- первая колонка -->
-                        <td style="height: 205px;">
-                            <!-- адрес -->
-                            <p class="addres">г. Рязань ул. Зубновой 8.20 кв. 40</p>
-                            <!-- заказ от юр.лица -->
-                            <div class="ur">
-                                <p>
-                                    Иванов И.И.
-                                    <ol>
-                                        <li>Суп__________1шт</li>
-                                        <li>Макароны_____1шт</li>
-                                        <li>Сок__________1шт</li>
-                                    </ol>
-                                </p>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-text">
+                                <h4>Свяжитесь с нами для уточнения информации</h4>
+                                <span>Не беспокойтесь, ваши данные останутся конфидециальны</span>
+
+                            </div>
+                                <div class="form">
+                                <div class="col-md-10 offset-md-1">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input placeholder="Email@exaple.ru" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <label for="exampleInputName" class="form-label">Name</label>
+                                            <input placeholder="Jame" type="name" class="form-control" id="exampleInputPassword1">
+                                            <label for="exampleInputTel" class="form-label">Number</label>
+                                            <input placeholder="+7 (932) 784-65-78" type="tel" class="form-control" id="exampleInputPassword1">
+                                            <div class="col-md-4 offset-md-4">
+                                            <button type="button" class="btn form-btn btn-outline-warning">Отправить</button>
+                                            </div>
+                        </div>
+                    </div>
+                        <div class="Services">
+                            <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card">
+                                    <img src="img/CUMbain.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Продажа сельхоз теники</h5>
+                                      <p class="card-text">Мы продаем только самую качественную сельхоз технику и заботимся о наших клиентах</p>
+                                      <a href="#6" class="btn btn-primary">Обратиться</a>
+                                    </div>
+                                  </div>    
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card">
+                                    <img src="img/sad.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Продажа садовой техники</h5>
+                                      <p class="card-text">Мы поставляем отличную садовую техники для специализированых магазинов</p>
+                                      <a href="#6" class="btn btn-primary">Обратиться</a>
+                                    </div>
+                                  </div>    
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card">
+                                    <img src="img/transport.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Продажа сельхоз теники</h5>
+                                      <p class="card-text">Мы продаем только самую качественную сельхоз технику и заботимся о наших клиентах</p>
+                                      <a href="#6" class="btn btn-primary">Обратиться</a>
+                                    </div>
+                                  </div>    
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card">
+                                    <img src="img/Style.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Сотрудничество с интерьерными организациями</h5>
+                                      <p class="card-text">Для нас важны интерьерные составляющие, будем рады сотрудничеству</p>
+                                      <a href="#6" class="btn btn-primary">Обратиться</a>
+                                    </div>
+                                  </div>    
                             </div>
 
-                            </td>
-                            <td>
-                                <div class="coment" align="center">
-                                    <p>Добавить Коментарии</p>
-                                    <textarea cols="25" rows="3">
-                                    </textarea>
-                                    <br>
-                                    <br>
-                                    <!-- кнопку вставил от бутстрап -->
-                                    <button type="button" class="btn btn-secondary">Добавить</button>
-                                </div>
-                                <div class="form-check-5">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                    </label>
-                            </div>    
-                            </td>
-
-                    </tr>
-                            <tr style="height: 550px;">
-                                <!-- Это стрелочки, я их сделал в фотошопе и кинул сюда -->
-                                <div class="ierarhy"> 
-                                    <div class="Фигура-1"></div>
-                                    <div class="Фигура-2"></div>
-                                    <div class="Фигура-3"></div>
-                                    <div class="Фигура-4"></div>                            
-                                </div>
-                                <!-- Это "ООО Вектор" -->
-                                    <p class="one-border">ООО "Вектор"</p>
-                                <!-- заказ Иванова -->
-                                <div class="row">
-                                    <div class="border+galka">
-                                        <div class="two-border">
-                                            <p class="index-text-in-border-two">
-                                                Иванов И.И.
-                                                <ol>
-                                                    <li>Суп__________1шт</li>
-                                                    <li>Макароны_____1шт</li>
-                                                    <li>Сок__________1шт</li>
-                                                </ol>
-                                            </p>    
-                                        </div>
-        
-                                    
-                                    <!-- "галочка из бутстрап" -->
-                                        <div class="form-check-1">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                            <label class="form-check-label" for="flexCheckChecked">
-                                            </label>
-                                    </div>
-                                </div>
-    
-                                </div>
-                                    <!-- Заказ Самешова -->
-                                        <div class="border+galka">
-                                            <div class="three-border">
-                                                <p class="h22">Самешов В.К.
-                                                    <ol>
-                                                        <li>Ши__________1шт</li>
-                                                        <li>Картошка____1шт</li>
-                                                        <li>Сок_________1шт</li>
-                                                    </ol>
-                                                </p>            
-                                            </div> 
-        
-                                        </div>
-                                        <!-- еще одна галочка -->
-                                            <div class="form-check-2">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                <label class="form-check-label" for="flexCheckChecked">
-                                                </label>
-           
-                                    </div>
-    
-                             
-                           
-                                    <td>
-                               
-                                        <!-- Добавить комментарий  -->
-                        
-                                        <div class="coment-2" align="center">
-                                            <p>Добавить Коментарии</p>
-                                            <textarea cols="25" rows="3">
-                                            </textarea>
-                                            <br>
-                                            <br>
-                                            <!-- кнопку вставил от бутстрап -->
-                                            <button type="button" class="btn btn-secondary">Добавить</button>
-                                        </div>
-                
-                                        <!-- вторая колонка -->
-                                        <th class="one" align="center">
-                                            <p class="four-border">ООО "Вектор"</p>
-                                            <div class="ierarhy"> 
-                                                <div class="Фигура-8"></div>
-                                                <div class="Фигура-6"></div>
-                                                <div class="Фигура-7"></div>
-                                                <div class="Фигура-5"></div>
-                                            </div>
-                                            <!-- имена заказчиков -->
-                                            <h4 class="last-1">Самешов В.К.</h4>
-                                                <div class="form-3">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                    <label class="form-check-label" for="flexCheckChecked">Добавить
-                                                    </label>
-                                        </div>
-                                            <h4 class="last-2"> Иванов И.И.</h4>
-                                                <div class="form-4">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                    <label class="form-check-label" for="flexCheckChecked">Добавить
-                                                    </label>
-                                                  </div>    
-                
-                                    </td>
-                         </tr>
+                        </div>
+                    </div>
+                </div>
+    </body>
+    </html>
                     
-                
-                </tbody>
-                  </table>        
-            </div>
-</body>
-</html>
