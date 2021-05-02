@@ -83,7 +83,7 @@ label {
   font-family: 'Comfortaa', 'cursive';
 }
 .Services {
-  margin: 50px 0px;
+  margin-top: 20px;
 }
 .about-us {
   font-size: 16pt;
@@ -97,7 +97,6 @@ label {
   font-family: 'Comfortaa', 'cursive';
   padding-top: 25px;
   padding-bottom: 30px;
-  margin-bottom: 50px;
 }
 .section-1,
 .section-2,
@@ -146,4 +145,14 @@ label {
   text-align: center;
   color: azure;
   margin-bottom: 30px;
+}
+footer {
+  display: inline-block;
+  font-size: 16pt;
+  font-family: 'Comfortaa', 'cursive';
+  background-color: #333333;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
